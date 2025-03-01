@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  RxSwift
+//  RxSwiftTest
 //
 //  Created by 조성민 on 3/1/25.
 //

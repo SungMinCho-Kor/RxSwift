@@ -6,65 +6,54 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		597E1E3D2D72F8BD0075A6A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 597E1E3C2D72F8BD0075A6A0 /* SnapKit */; };
-		597E1E402D72F8CF0075A6A0 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 597E1E3F2D72F8CF0075A6A0 /* RxCocoa */; };
-		597E1E422D72F8CF0075A6A0 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 597E1E412D72F8CF0075A6A0 /* RxSwift */; };
-		597E1E452D72F8E80075A6A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 597E1E442D72F8E80075A6A0 /* Alamofire */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		597E1E202D72F78E0075A6A0 /* RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		597E1E5C2D72FD1E0075A6A0 /* RxSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		597E1E322D72F7900075A6A0 /* Exceptions for "RxSwift" folder in "RxSwift" target */ = {
+		597E1E6E2D72FD200075A6A0 /* Exceptions for "RxSwiftTest" folder in "RxSwiftTest" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/Info.plist,
 			);
-			target = 597E1E1F2D72F78E0075A6A0 /* RxSwift */;
+			target = 597E1E5B2D72FD1E0075A6A0 /* RxSwiftTest */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		597E1E222D72F78E0075A6A0 /* RxSwift */ = {
+		597E1E5E2D72FD1E0075A6A0 /* RxSwiftTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				597E1E322D72F7900075A6A0 /* Exceptions for "RxSwift" folder in "RxSwift" target */,
+				597E1E6E2D72FD200075A6A0 /* Exceptions for "RxSwiftTest" folder in "RxSwiftTest" target */,
 			);
-			path = RxSwift;
+			path = RxSwiftTest;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		597E1E1D2D72F78E0075A6A0 /* Frameworks */ = {
+		597E1E592D72FD1E0075A6A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597E1E422D72F8CF0075A6A0 /* RxSwift in Frameworks */,
-				597E1E452D72F8E80075A6A0 /* Alamofire in Frameworks */,
-				597E1E402D72F8CF0075A6A0 /* RxCocoa in Frameworks */,
-				597E1E3D2D72F8BD0075A6A0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		597E1E172D72F78E0075A6A0 = {
+		597E1E532D72FD1E0075A6A0 = {
 			isa = PBXGroup;
 			children = (
-				597E1E222D72F78E0075A6A0 /* RxSwift */,
-				597E1E212D72F78E0075A6A0 /* Products */,
+				597E1E5E2D72FD1E0075A6A0 /* RxSwiftTest */,
+				597E1E5D2D72FD1E0075A6A0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		597E1E212D72F78E0075A6A0 /* Products */ = {
+		597E1E5D2D72FD1E0075A6A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				597E1E202D72F78E0075A6A0 /* RxSwift.app */,
+				597E1E5C2D72FD1E0075A6A0 /* RxSwiftTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,73 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		597E1E1F2D72F78E0075A6A0 /* RxSwift */ = {
+		597E1E5B2D72FD1E0075A6A0 /* RxSwiftTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 597E1E332D72F7900075A6A0 /* Build configuration list for PBXNativeTarget "RxSwift" */;
+			buildConfigurationList = 597E1E6F2D72FD200075A6A0 /* Build configuration list for PBXNativeTarget "RxSwiftTest" */;
 			buildPhases = (
-				597E1E1C2D72F78E0075A6A0 /* Sources */,
-				597E1E1D2D72F78E0075A6A0 /* Frameworks */,
-				597E1E1E2D72F78E0075A6A0 /* Resources */,
+				597E1E582D72FD1E0075A6A0 /* Sources */,
+				597E1E592D72FD1E0075A6A0 /* Frameworks */,
+				597E1E5A2D72FD1E0075A6A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				597E1E222D72F78E0075A6A0 /* RxSwift */,
+				597E1E5E2D72FD1E0075A6A0 /* RxSwiftTest */,
 			);
-			name = RxSwift;
+			name = RxSwiftTest;
 			packageProductDependencies = (
-				597E1E3C2D72F8BD0075A6A0 /* SnapKit */,
-				597E1E3F2D72F8CF0075A6A0 /* RxCocoa */,
-				597E1E412D72F8CF0075A6A0 /* RxSwift */,
-				597E1E442D72F8E80075A6A0 /* Alamofire */,
 			);
-			productName = RxSwift;
-			productReference = 597E1E202D72F78E0075A6A0 /* RxSwift.app */;
+			productName = RxSwiftTest;
+			productReference = 597E1E5C2D72FD1E0075A6A0 /* RxSwiftTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		597E1E182D72F78E0075A6A0 /* Project object */ = {
+		597E1E542D72FD1E0075A6A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					597E1E1F2D72F78E0075A6A0 = {
+					597E1E5B2D72FD1E0075A6A0 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 597E1E1B2D72F78E0075A6A0 /* Build configuration list for PBXProject "RxSwift" */;
+			buildConfigurationList = 597E1E572D72FD1E0075A6A0 /* Build configuration list for PBXProject "RxSwiftTest" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 597E1E172D72F78E0075A6A0;
+			mainGroup = 597E1E532D72FD1E0075A6A0;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				597E1E3B2D72F8BD0075A6A0 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				597E1E3E2D72F8CF0075A6A0 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				597E1E432D72F8E80075A6A0 /* XCRemoteSwiftPackageReference "Alamofire" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 597E1E212D72F78E0075A6A0 /* Products */;
+			productRefGroup = 597E1E5D2D72FD1E0075A6A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				597E1E1F2D72F78E0075A6A0 /* RxSwift */,
+				597E1E5B2D72FD1E0075A6A0 /* RxSwiftTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		597E1E1E2D72F78E0075A6A0 /* Resources */ = {
+		597E1E5A2D72FD1E0075A6A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		597E1E1C2D72F78E0075A6A0 /* Sources */ = {
+		597E1E582D72FD1E0075A6A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -158,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		597E1E342D72F7900075A6A0 /* Debug */ = {
+		597E1E702D72FD200075A6A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -167,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7CQAR4CYZX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RxSwift/Resources/Info.plist;
+				INFOPLIST_FILE = RxSwiftTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -178,7 +158,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sungmincho.RxSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sungmincho.RxSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -190,7 +170,7 @@
 			};
 			name = Debug;
 		};
-		597E1E352D72F7900075A6A0 /* Release */ = {
+		597E1E712D72FD200075A6A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -199,7 +179,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7CQAR4CYZX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RxSwift/Resources/Info.plist;
+				INFOPLIST_FILE = RxSwiftTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -210,7 +190,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sungmincho.RxSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sungmincho.RxSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -222,7 +202,7 @@
 			};
 			name = Release;
 		};
-		597E1E362D72F7900075A6A0 /* Debug */ = {
+		597E1E722D72FD200075A6A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		597E1E372D72F7900075A6A0 /* Release */ = {
+		597E1E732D72FD200075A6A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,75 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		597E1E1B2D72F78E0075A6A0 /* Build configuration list for PBXProject "RxSwift" */ = {
+		597E1E572D72FD1E0075A6A0 /* Build configuration list for PBXProject "RxSwiftTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				597E1E362D72F7900075A6A0 /* Debug */,
-				597E1E372D72F7900075A6A0 /* Release */,
+				597E1E722D72FD200075A6A0 /* Debug */,
+				597E1E732D72FD200075A6A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		597E1E332D72F7900075A6A0 /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
+		597E1E6F2D72FD200075A6A0 /* Build configuration list for PBXNativeTarget "RxSwiftTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				597E1E342D72F7900075A6A0 /* Debug */,
-				597E1E352D72F7900075A6A0 /* Release */,
+				597E1E702D72FD200075A6A0 /* Debug */,
+				597E1E712D72FD200075A6A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		597E1E3B2D72F8BD0075A6A0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-		597E1E3E2D72F8CF0075A6A0 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.9.0;
-			};
-		};
-		597E1E432D72F8E80075A6A0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.10.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		597E1E3C2D72F8BD0075A6A0 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 597E1E3B2D72F8BD0075A6A0 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		597E1E3F2D72F8CF0075A6A0 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 597E1E3E2D72F8CF0075A6A0 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		597E1E412D72F8CF0075A6A0 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 597E1E3E2D72F8CF0075A6A0 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		597E1E442D72F8E80075A6A0 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 597E1E432D72F8E80075A6A0 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 597E1E182D72F78E0075A6A0 /* Project object */;
+	rootObject = 597E1E542D72FD1E0075A6A0 /* Project object */;
 }
