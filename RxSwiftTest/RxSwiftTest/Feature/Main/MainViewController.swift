@@ -10,11 +10,12 @@ import UIKit
 final class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = .lightGray
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapped)))
+        navigationItem.title = "화면 터치"
     }
     
     @objc private func tapped() {
-        navigationController?.pushViewController(CreationObservableViewController(), animated: true)
+        navigationController?.pushViewController(HotColdObservableViewController(), animated: true)
     }
 }
