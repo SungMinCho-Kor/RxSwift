@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		597E1E3D2D72F8BD0075A6A0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 597E1E3C2D72F8BD0075A6A0 /* SnapKit */; };
+		597E1E402D72F8CF0075A6A0 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 597E1E3F2D72F8CF0075A6A0 /* RxCocoa */; };
+		597E1E422D72F8CF0075A6A0 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 597E1E412D72F8CF0075A6A0 /* RxSwift */; };
+		597E1E452D72F8E80075A6A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 597E1E442D72F8E80075A6A0 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		597E1E202D72F78E0075A6A0 /* RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597E1E422D72F8CF0075A6A0 /* RxSwift in Frameworks */,
+				597E1E452D72F8E80075A6A0 /* Alamofire in Frameworks */,
+				597E1E402D72F8CF0075A6A0 /* RxCocoa in Frameworks */,
+				597E1E3D2D72F8BD0075A6A0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,10 @@
 			);
 			name = RxSwift;
 			packageProductDependencies = (
+				597E1E3C2D72F8BD0075A6A0 /* SnapKit */,
+				597E1E3F2D72F8CF0075A6A0 /* RxCocoa */,
+				597E1E412D72F8CF0075A6A0 /* RxSwift */,
+				597E1E442D72F8E80075A6A0 /* Alamofire */,
 			);
 			productName = RxSwift;
 			productReference = 597E1E202D72F78E0075A6A0 /* RxSwift.app */;
@@ -107,6 +122,11 @@
 			);
 			mainGroup = 597E1E172D72F78E0075A6A0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				597E1E3B2D72F8BD0075A6A0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				597E1E3E2D72F8CF0075A6A0 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				597E1E432D72F8E80075A6A0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 597E1E212D72F78E0075A6A0 /* Products */;
 			projectDirPath = "";
@@ -343,6 +363,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		597E1E3B2D72F8BD0075A6A0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		597E1E3E2D72F8CF0075A6A0 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		597E1E432D72F8E80075A6A0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		597E1E3C2D72F8BD0075A6A0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 597E1E3B2D72F8BD0075A6A0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		597E1E3F2D72F8CF0075A6A0 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 597E1E3E2D72F8CF0075A6A0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		597E1E412D72F8CF0075A6A0 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 597E1E3E2D72F8CF0075A6A0 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		597E1E442D72F8E80075A6A0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 597E1E432D72F8E80075A6A0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 597E1E182D72F78E0075A6A0 /* Project object */;
 }
