@@ -17,6 +17,7 @@ final class CreationObservableViewModel: ViewModel {
     struct Output {
         let create: Observable<Int>
         let asyncCreate: Observable<Int>
+        let just: Observable<Int>
         let from: Observable<Int>
         let of: Observable<Int>
     }
@@ -34,6 +35,7 @@ final class CreationObservableViewModel: ViewModel {
     func transform(input: Input) -> Output {
         let create = makeCreate()
 //        let asyncCreate = makeAsyncCreate()
+        let just = makeJust()
         let from = makeFrom()
         let of = makeOf()
         
@@ -46,19 +48,12 @@ final class CreationObservableViewModel: ViewModel {
         let output = Output(
             create: create,
             asyncCreate: asyncCreate,
+            just: just,
             from: from,
             of: of
         )
         
         return output
-    }
-    
-    private func makeFrom() -> Observable<Int> {
-        return Observable.from([1, 2, 3])
-    }
-    
-    private func makeOf() -> Observable<Int> {
-        return Observable.of(1, 2, 3)
     }
     
     private func makeCreate() -> Observable<Int> {
@@ -89,5 +84,17 @@ final class CreationObservableViewModel: ViewModel {
                 print(#function, "Disposed")
             }
         }
+    }
+    
+    private func makeJust() -> Observable<Int> {
+        return Observable.just(2)
+    }
+    
+    private func makeFrom() -> Observable<Int> {
+        return Observable.from([1, 2, 3])
+    }
+    
+    private func makeOf() -> Observable<Int> {
+        return Observable.of(1, 2, 3)
     }
 }

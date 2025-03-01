@@ -35,6 +35,14 @@ final class CreationObservableViewController: BaseViewController {
             }
             .disposed(by: disposeBag)
         
+        output.just
+            .subscribe(with: self) { owner, value in
+                print("just: \(value)")
+            } onDisposed: { owner in
+                print("just disposed")
+            }
+            .disposed(by: disposeBag)
+        
         output.from
             .subscribe(with: self) { owner, value in
                 print("from: \(value)")

@@ -41,6 +41,7 @@ class BaseViewController: UIViewController  {
         configureHierarchy()
         configureLayout()
         configureViews()
+        configureNavigtaion()
         bind()
     }
     
@@ -57,6 +58,10 @@ class BaseViewController: UIViewController  {
     
     func configureViews() {
         view.backgroundColor = .white
+    }
+    
+    func configureNavigtaion() {
+        navigationItem.title = String(describing: self)
     }
     
     func bind() { }
