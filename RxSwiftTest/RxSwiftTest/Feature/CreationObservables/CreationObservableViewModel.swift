@@ -9,7 +9,7 @@ import RxSwift
 import RxCocoa
 import Alamofire
 
-final class CreationObservableViewModel {
+final class CreationObservableViewModel: ViewModel {
     struct Input {
         let startButtonTapped: ControlEvent<Void>
     }
